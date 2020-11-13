@@ -172,6 +172,10 @@ int main()
 		}
 
 	}
+	catch(runtime_error er)
+	{
+		cout << "runtime_error " <<er.what() << endl;
+	}
 	catch (exception ex)
 	{
 		cout << ex.what() << endl;
