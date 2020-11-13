@@ -34,7 +34,7 @@ GLuint compile_shader(const GLchar* shaderCode, GLenum shaderType)
 		GLchar infoLog[512];
 		glGetShaderInfoLog(shader_id, sizeof(infoLog), NULL, infoLog);
 		string msg = string("Shader compilation: ") + infoLog;
-		throw exception(msg.c_str());
+		throw runtime_error(msg.c_str());
 	}
 	return shader_id;
 }
@@ -62,7 +62,7 @@ ShaderProgram::ShaderProgram(const GLchar* vertexPath, const GLchar* fragmentPat
 		GLchar infoLog[512];
 		glGetProgramInfoLog(program_id, sizeof(infoLog), NULL, infoLog);
 		string msg = string("Shader program linking: ") + infoLog;
-		throw exception(msg.c_str());
+		throw runtime_error(msg.c_str());
 	}
 
 	// Delete the shaders as they're linked into our program now and no longer necessery

@@ -63,7 +63,7 @@ GLuint LoadMipmapTexture(GLuint texId, const char* fname)
 	int width, height;
 	unsigned char* image = SOIL_load_image(fname, &width, &height, 0, SOIL_LOAD_RGB);
 	if (image == nullptr)
-		throw exception("Failed to load texture file");
+		throw runtime_error("Failed to load texture file");
 
 	GLuint texture;
 	glGenTextures(1, &texture);
@@ -95,7 +95,7 @@ int main()
 	{
 		GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "GKOM - OpenGL 206.z Lokomotywa", nullptr, nullptr);
 		if (window == nullptr)
-			throw exception("GLFW window not created");
+			throw runtime_error("GLFW window not created");
 		glfwMakeContextCurrent(window);
 		glfwSetKeyCallback(window, key_callback);
 		glfwSetCursorPosCallback(window, mouse_callback);
@@ -103,7 +103,7 @@ int main()
 		glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 		glewExperimental = GL_TRUE;
 		if (glewInit() != GLEW_OK)
-			throw exception("GLEW Initialization failed");
+			throw runtime_error("GLEW Initialization failed");
 
 		glViewport(0, 0, WIDTH, HEIGHT);
 		glEnable(GL_DEPTH_TEST);
