@@ -22,6 +22,7 @@ double lastY = HEIGHT/2;
 bool firstMouse = true;
 
 
+
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode)
 {
 	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
