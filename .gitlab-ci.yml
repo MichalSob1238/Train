@@ -1,0 +1,11 @@
+
+# image: mcr.microsoft.com/windows:1909
+image : vs2019
+
+# basic build
+build:
+  tags: 
+    - vs2019
+  stage: build
+  script:
+    - msbuild 206_lokomotywa.sln
