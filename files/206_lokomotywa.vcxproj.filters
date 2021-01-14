@@ -60,6 +60,9 @@
     <ClCompile Include="Wagon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="gl_05.frag" />
@@ -68,6 +71,24 @@
       <Filter>Source Files</Filter>
     </None>
     <None Include="CubeShader.vert">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shadow .frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shadow.vert">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shadow_depth.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="shadow_depth.vert">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LightShader.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="LightShader.vert">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
@@ -123,6 +144,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Wagon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

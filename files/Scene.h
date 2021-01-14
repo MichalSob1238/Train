@@ -38,5 +38,4 @@ public:
     void removePointLightSource(unsigned int number);
     unsigned int getNUmberOfLights() { return number_of_lights; }
     void updateLights();
-    void updateShadows();
 };

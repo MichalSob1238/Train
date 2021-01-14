@@ -95,6 +95,7 @@
     <ClCompile Include="Object.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Shadow.cpp" />
     <ClCompile Include="Shape.cpp" />
     <ClCompile Include="shprogram.cpp" />
     <ClCompile Include="Locomotive.cpp" />
@@ -107,6 +108,12 @@
     <None Include="CubeShader.vert" />
     <None Include="gl_05.frag" />
     <None Include="gl_05.vert" />
+    <None Include="LightShader.frag" />
+    <None Include="LightShader.vert" />
+    <None Include="shadow .frag" />
+    <None Include="shadow.vert" />
+    <None Include="shadow_depth.frag" />
+    <None Include="shadow_depth.vert" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="iipw.png" />
@@ -122,6 +129,7 @@
     <ClInclude Include="Object.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="Shader.h" />
+    <ClInclude Include="Shadow.h" />
     <ClInclude Include="Shape.h" />
     <ClInclude Include="shprogram.h" />
     <ClInclude Include="Locomotive.h" />
