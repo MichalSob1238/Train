@@ -97,3 +97,8 @@ void Scene::updateLights()
         throw std::exception("Something went wrong during counting ligts");
     }
 }
+
+void Scene::updateShadows() {
+
+
+}
