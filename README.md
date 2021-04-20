@@ -28,7 +28,6 @@
 10. Prezentacja gotowego projektu  
 
 ## Lista Zadań
-Lista zazdań w formie oddzielnych issues [tutaj](http://gitlab.ii.pw.edu.pl/gkom.20z/206.-pociag/-/issues?scope=all&utf8=%E2%9C%93&state=all)
 - [x] Przygotowanie środowiska pracy
 - [x] Zaplanowanie zadań w ramach narzędzi na GitLabie (stworzenie oraz podział issue-ów, stworzenie metazadań)
 - [x] Stworzenie klas bazowych (pustych interfejsów) dla renderowanych obiektów
@@ -36,7 +35,6 @@ Lista zazdań w formie oddzielnych issues [tutaj](http://gitlab.ii.pw.edu.pl/gko
 - [x] Przygotowanie interfejsów oraz klas do pracy z openGL-em
     - [x] Ustalenie zakresu zadań, które mają być realizowane za pomocą tych wrapperów
     - [x] Nakładanie więzów na obiekty oraz ich grupowanie
-- [ ] Przygotowanie CI
 - [x] Przygotowanie modelu lokomotywy
     - [x] Podział na figury
     - [x] Połączenie figur
