@@ -1,4 +1,6 @@
-# Projekt GKOM - Pociąg
+# Projekt GKOM - Pociąg 
+
+(English descriptions below)
 
 ## Autorzy
 | Imię Nazwisko                                     |
@@ -43,7 +45,7 @@
     - [x] Podział na figury
     - [x] Połączenie figur
     - [x] Nadanie koloru lub tekstur
-- [x] Przygotowanie modelu otoczenia (tory, góry, łąka)
+- [x] Przygotowanie modelu otoczenia (tory, kaktusy, skybox)
     - [x] Podział na figury
     - [x] Połączenie figur
     - [x] Nadanie koloru lub tekstur
@@ -61,3 +63,75 @@
  - https://learnopengl.com/
  - http://www.songho.ca/opengl/index.html
  - http://cpp0x.pl/kursy/Kurs-OpenGL-C++/101
+
+
+# Project for the GKOM course - Train 
+
+
+## Authors
+| Name Surname                                      |
+| ------------------------------------------------- |
+| Paweł Kotiuk - lights, shaders                    |
+| Maciej Kowalski - shadows, textures               |
+| Mateusz Chruściel - code base, sounds             |
+| Michał Sobieraj - models, environment generation  |
+
+## Initial sketch
+![Szkic](./szkic.png)
+
+
+
+## Milestones
+
+
+1. Preparing the code base  
+2. Working Cameras
+3. Finished train car model   
+4. Finished locomotive model
+5. Enviroment creation
+6. Working light modulation
+7. Generating the model in motion
+8. Interactive control over the train
+9. finised code base
+10. Presentation of the finished project
+
+## Task List
+- [x] IDE Set-up
+- [x] Finished task plan (issues, division of workoad)
+- [x] Creating the base classes for objects
+- [x] Familiarising with the openGL library
+- [x] Preparing the classes and interfaces to work with openGL
+    - [x] Setting on the functionality of these wrappers
+    - [x] Binding and grouping the objects
+- [x] Preparing the locomotive model
+    - [x] Division into basic figures
+    - [x] Joining the figures
+    - [x] Applying colours and textures
+- [x] Preparing the traincart  model
+    - [x] Division into basic figures
+    - [x] Joining the figures
+    - [x] Applying colours and textures
+- [x] Preparing the enviroment model (tracks, cacti, skybox)
+    - [x] Division into basic figures
+    - [x] Joining the figures
+    - [x] Applying colours and textures
+- [x] Preparing textures
+- [x] Implementing a free-moving camera
+- [x] Implementing modular lighting
+- [x] Adding light-generating objects
+- [x] Handling user input
+- [x] Repository management
+
+## Current status of the project
+![Screenshot](./screenshot.png)
+
+## Sources
+ - https://learnopengl.com/
+ - http://www.songho.ca/opengl/index.html
+ - http://cpp0x.pl/kursy/Kurs-OpenGL-C++/101
+
+
+
+
+
+
